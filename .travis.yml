@@ -9,4 +9,4 @@ install:
   - pip install pylint
 # command to run tests
 script:
-  - pylint main.py
+  - pylint main.py -d bad-continuation
